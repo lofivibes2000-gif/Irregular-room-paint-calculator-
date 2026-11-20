@@ -1,0 +1,19 @@
+# Local QA screenshots (regenerate: node tools/shots.js)
+shots/
+
+# Background material — kept in the working copy, not published to the repo
+tools/
+DEPLOY-NOTES.md
+
+# Never commit private keys or local secrets
+*.pem
+id_ed25519*
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
